@@ -1177,11 +1177,11 @@ a.brand:focus{
 
 .section-about-title{
   margin-bottom: 5rem;
-  color: #25FFFF;
+  color: #5286EF;
 }
 
 #about-title{
-  color: #25FFFF;
+  color: #5286EF;
 }
 
 .dots-image{
@@ -1469,7 +1469,7 @@ a.brand:focus{
 }
 
 .project-item:hover .project-hover{
-  background-color: #25FFFF;
+  background-color: #5286EF;
 }
 
 .project-item:hover .project-hover .project-title{
