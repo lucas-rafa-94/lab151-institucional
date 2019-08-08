@@ -116,6 +116,31 @@ html{
   -webkit-font-smoothing: antialiased;
 }
 
+input[type='file'] {
+  display: none
+}
+
+#cadastrar{
+  width: 220px;
+}
+.input-wrapper label {
+  color:#fff;
+  letter-spacing: 0.025em;
+  font-size: 1rem;
+  display: inline-block;
+  border:0;
+  border-radius: 0;
+  padding: 1.1em 2.28em 1em;
+  background-color: #000;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out!important;
+  transition: all .3s ease-out!important;
+}
+
+.input-wrapper label:hover {
+  background-color: #5FAAC1
+}
+
 #logo_small{
   display: inline-block;
   vertical-align: top;
@@ -447,6 +472,19 @@ label.error{
 /* 1.4 Buttons */
 
 
+.label-escolha{
+  color:#fff;
+  letter-spacing: 0.025em;
+  font-size: 1rem;
+  display: inline-block;
+  border:0;
+  border-radius: 0;
+  padding: 1.1em 2.28em 1em;
+  background-color: #000;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out!important;
+  transition: all .3s ease-out!important;
+}
 
 .btn{
   color:#fff;
@@ -3550,6 +3588,9 @@ a.brand:focus{
   height: 26rem;
   border: 0;
   text-align: center;
+  /*background-image: "images/postermaior_final.png";*/
+  background-image: url(..images/postermaior_final.png);
+
 }
 
 .map-info{
