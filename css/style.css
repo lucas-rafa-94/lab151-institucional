@@ -1150,10 +1150,23 @@ a.brand:focus{
   white-space:nowrap;
   margin:6rem 0;
 }
+@media (min-width: 5px){
+  .experience-box{
+    margin-left: -12rem;
+    margin-top: 6rem;
+  }
+}
 
 @media (min-width: 200px){
   .experience-box{
     margin-left: 5rem;
+    margin-top: 6rem;
+  }
+}
+
+@media (min-width: 320px){
+  .experience-box{
+    margin-left: 2rem;
     margin-top: 6rem;
   }
 }
@@ -4092,7 +4105,7 @@ img#revolucao {
   }
 
   .menu-footer .copy{
-    display: block;
+    /*display: ;*/
   }
 }
 
