@@ -12,7 +12,8 @@
     <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-    <title>Bauhaus - Architecture & Interior HTML Template</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <title>lab151</title>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
@@ -120,7 +121,7 @@
                     <div class="col-md-3">
                         <div class="title-hr"></div>
                     </div>
-                    <div class="col-md-8 col-lg-6"><h1>lorem ipsum dolor sit amet.</h1></div>
+                    <div class="col-md-8 col-lg-6"><h1>startup music tech.</h1></div>
                 </div>
             </div>
         </main>
@@ -138,10 +139,10 @@
                                 </div>
                             </div>
                             <div class="col-md-9">
-                                <div class="text-display-1"><p><strong class="text-dark">lorem ipsum dolor sit amet, no idque eruditi dignissim cum.</strong><br>
-                                    lorem ipsum dolor sit amet, no idque eruditi dignissim cum. Lorem volumus neglegentur usu no. Detraxit rationibus te eum. Modus fugit splendide ut his.</p>
+                                <div class="text-display-1"><p><strong class="text-dark">A lab151 é uma music tech. E o que isso quer dizer?</strong><br>
+                                    Quer dizer que temos como principal característica o uso da tecnologia para redesenhar os processos utilizados na indústria da música atual.</p>
 
-                                    <p>Lorem ipsum dolor sit amet, no idque eruditi dignissim cum. Lorem volumus neglegentur usu no. Detraxit rationibus te eum. Modus fugit splendide ut his.</p>
+                                    <p>Ou seja, os processos podem ser otimizados, criando uma nova vertente de produção musical, mais acessível e democrática.</p>
 
                                     <p class="text-muted">orem ipsum dolor sit amet, no idque eruditi dignissim cum</p>
                                 </div>
@@ -229,7 +230,7 @@
                                 <div class="section-add-comment">
                                     <div class="comment-respond">
                                         <h6 class="comment-reply-title"></h6>
-                                        <form class="js-form">
+                                        <form id="fale-conosco" class="js-form">
                                             <div class="row">
                                                 <div class="form-group col-sm-6">
                                                     <input type="text" name="name" required placeholder="nome*">
@@ -459,5 +460,26 @@
 <!-- Scripts -->
 <script src="js/scripts.js"></script>
 <script src="js/rev-slider-init.js"></script>
+<script type='text/javascript'>
+    /* attach a submit handler to the form */
+    $("#fale-conosco").submit(function(event) {
+
+        /* stop form from submitting normally */
+        event.preventDefault();
+        console.log()
+
+        /* get the action attribute from the <form action=""> element */
+        // var $form = $( this ),
+        //     url = $form.attr( 'action' );
+
+        /* Send the data using post with element id name and name2*/
+        // var posting = $.post( url, { name: $('#name').val(), name2: $('#name2').val() } );
+
+        /* Alerts the results */
+        // posting.done(function( data ) {
+        //     alert('success');
+        // });
+    });
+</script>
 </body>
 </html>
